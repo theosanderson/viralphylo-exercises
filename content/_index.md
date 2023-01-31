@@ -1,1 +1,1 @@
-Welcome to the course
+This page will go live on Wednesday 1 Feb
