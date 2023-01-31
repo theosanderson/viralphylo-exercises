@@ -1,0 +1,30 @@
+<!-- Create a text box which keeps its contents in local storage.
+It should be keyed with a "key" parameter. Also add a setInterval to update it
+if local storage changes -->
+<div>
+    <textarea id="answerbox" class="answerbox" placeholder="Enter your answer here" 
+    oninput="update{{.Get "key" | safeJS }}()"></textarea>
+    <script>
+        var last{{.Get "key" | safeJS }} = "";
+        function update{{.Get "key" | safeJS }}() {
+            localStorage.setItem("{{.Get "key" | safeJS }}", document.getElementById("answerbox").value);
+            last{{.Get "key" | safeJS }} = document.getElementById("answerbox").value;
+        }
+
+        function refresh{{.Get "key" | safeJS }}(){
+            // if the local storage has changed, update the text box
+            let newval = localStorage.getItem("{{.Get "key" | safeJS }}");
+            if (newval != last{{.Get "key" | safeJS }}) {
+                document.getElementById("answerbox").value = newval;
+                last{{.Get "key" | safeJS }} = newval;
+            }
+        }
+
+        setInterval(refresh{{.Get "key" | safeJS }}, 1000);
+        
+
+
+    </script>
+   
+
+</div>
