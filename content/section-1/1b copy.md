@@ -6,6 +6,8 @@ draft: false
 
 Have a look at <a href="https://cov2tree.org">Cov2Tree</a>, a website that displays all 6M public SARS-CoV-2 sequences in a phylogenetic tree.
 
+Firstly again have an explore of the tree. Try finding all sequences from England, or the PANGO lineage that emerged in Kent, Alpha, which is called `B.1.1.7` in Pango terms.
+
 -----
 
 Find the sequence with name `OX303729.1`.
