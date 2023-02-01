@@ -1,8 +1,5 @@
 ---
-title: "Chapter 1-1"
+title: "Questions"
 date: 2017-10-17T15:26:15Z
-draft: true
+draft: false
 ---
-
-In this section we'll learn to use the following tools:
-- Nextclade
