@@ -28,6 +28,18 @@ What is the closest relative on the tree of this sequence?
 {{<answerbox key="sadkposagdddkposa" >}}
 
 {{% question %}}
+Give an example of a mutation we can be confident happened in Australia. Is it synonymous or non-synonymous?
+{{% /question %}}
+
+{{<answerbox key="sadkposagdssadddkposa" >}}
+
+{{% question %}}
+What mutations occurred on the branch leading to these two sequences?
+{{% /question %}}
+
+{{<answerbox key="sadkposagdssadddkposa" >}}
+
+{{% question %}}
 From where do you think this clade of the virus was introduced into Australia? Can we be certain?
 {{% /question %}}
 
