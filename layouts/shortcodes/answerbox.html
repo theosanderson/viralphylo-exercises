@@ -2,8 +2,9 @@
 It should be keyed with a "key" parameter. Also add a setInterval to update it
 if local storage changes -->
 <div>
-    <textarea id="answerbox" class="answerbox" placeholder="Enter your answer here" 
-    oninput="update{{.Get "key" | safeJS }}()"></textarea>
+    <textarea id="answerbox" class="answerbox" placeholder="" 
+    oninput="update{{.Get "key" | safeJS }}()"
+    style="width: 100%; margin-top:10px; border-color:#999"></textarea>
     <script>
         var last{{.Get "key" | safeJS }} = "";
         function update{{.Get "key" | safeJS }}() {
