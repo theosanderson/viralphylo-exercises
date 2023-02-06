@@ -65,7 +65,7 @@ According to the time tree, at what sort of date did this mutation first occur?
     
 {{% question %}}
 
-According to the tree, is `S:D614G` monophyletic?
+According to the tree, is `S:D614G` homoplasic?
 {{% /question %}}
 
 {{<answerbox key="sad2323ksadsdposagdkposa" >}}
