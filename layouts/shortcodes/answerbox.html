@@ -16,7 +16,7 @@ if local storage changes -->
             // if the local storage has changed, update the text box
             let newval = localStorage.getItem("{{.Get "key" | safeJS }}");
             if (newval != last{{.Get "key" | safeJS }}) {
-                document.getElementById("answerbox").value = newval;
+                document.getElementById("answerbox{{.Get "key" | safeJS }}").value = newval;
                 last{{.Get "key" | safeJS }} = newval;
             }
         }
