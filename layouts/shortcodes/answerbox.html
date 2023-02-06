@@ -2,14 +2,14 @@
 It should be keyed with a "key" parameter. Also add a setInterval to update it
 if local storage changes -->
 <div>
-    <textarea id="answerbox" class="answerbox" placeholder="" 
+    <textarea id="answerbox{{.Get "key" | safeJS }}" class="answerbox" placeholder="" 
     oninput="update{{.Get "key" | safeJS }}()"
     style="width: 100%; margin-top:10px; border-color:#999"></textarea>
     <script>
         var last{{.Get "key" | safeJS }} = "";
         function update{{.Get "key" | safeJS }}() {
-            localStorage.setItem("{{.Get "key" | safeJS }}", document.getElementById("answerbox").value);
-            last{{.Get "key" | safeJS }} = document.getElementById("answerbox").value;
+            localStorage.setItem("{{.Get "key" | safeJS }}", document.getElementById("answerbox{{.Get "key" | safeJS }}").value);
+            last{{.Get "key" | safeJS }} = document.getElementById("answerbox{{.Get "key" | safeJS }}").value;
         }
 
         function refresh{{.Get "key" | safeJS }}(){
