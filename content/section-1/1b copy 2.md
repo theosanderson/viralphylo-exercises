@@ -10,7 +10,7 @@ You can stay on <a href="//cov2tree.org" target="blank">Cov2Tree</a> to answer t
 
 
 {{% question %}}
-What residue is present at Spike position 681 in the strain of the virus that originally emerged in China?
+What residue is present at Spike position 681 in the strain of the virus that originally emerged in Wuhan?
 {{% /question %}}
 {{<answerbox key="fdddsfd" >}}
 
