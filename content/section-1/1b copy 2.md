@@ -1,6 +1,5 @@
 ---
 title: "Section 6: big trees continued"
-date: 2017-10-17T15:26:15Z
 draft: false
 ---
 

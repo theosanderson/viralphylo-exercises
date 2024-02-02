@@ -1,6 +1,5 @@
 ---
 title: "Section 5: big trees"
-date: 2017-10-17T15:26:15Z
 draft: false
 ---
 
