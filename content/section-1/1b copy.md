@@ -9,7 +9,7 @@ Firstly again have an explore of the tree. Try finding all sequences from Englan
 
 -----
 
-Find the sequence with name `OX303729.1`.
+Find the sequence with GenBank accession (not name) `OX303729.1`.
 
 {{% question %}}
 What country is this sequence from?
