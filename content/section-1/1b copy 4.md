@@ -5,7 +5,7 @@ draft: false
 
 CovSpectrum is a website that allows you to see trends in the numbers of viruses carrying particular mutations, or from particular lineages.
 
-Click <a href="https://cov-spectrum.org/explore/World/AllSamples/from=2020-01-09&to=2020-06-01/variants" target="blank">here</a> to open CovSpectrum, with the search set to show a time period from early 2020.
+Click <a href="https://cov-spectrum.org/explore/World/AllSamples/from%3D2020-01-01%26to%3D2020-07-01/variants?&" target="blank">here</a> to open CovSpectrum, with the search set to show a time period from early 2020.
 
 {{% question %}}
 What is the trend in this period for S:D614G?
