@@ -21,8 +21,13 @@ You can also try extending the time period to see further trends.
 Let's jump to the present day.
 
 {{% question %}}
-What is the lineage `CH.1.1* (Nextclade)` doing in the UK? What is the estimate for its growth advantage?
+Use CovSpectrum to find out about the dynamics of `JN.1*` in the UK in recent months. What is the estimate for its growth advantage?
 
+{{% /question %}}
+
+
+{{% question %}}
+Why do you think the growth trajectory has the shape that it does?
 {{% /question %}}
 
 {{<answerbox key="sadkposadrterkposa" >}}
